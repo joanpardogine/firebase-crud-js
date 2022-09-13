@@ -6,9 +6,9 @@ This project is web application using HTML, CSS, Javascript and Firebase Firesto
 
 console.firebase.google.com
 
-Project: <cognom>-firebase-js-crud
+Project: ```<cognom>```-firebase-js-crud
 
-Web app: web-app-<cognom>-firebase-js-crud
+Web app: web-app-```<cognom>```-firebase-js-crud
 
 
 
