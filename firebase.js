@@ -1,6 +1,6 @@
-// Import the functions you need from the SDKs you need
+// Importeu les funcions que necessiteu dels SDK que necessiteu
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.2/firebase-app.js";
-// TODO: Add SDKs for Firebase products that you want to use
+// TODO: Afegiu SDK per als productes de Firebase que vulgueu utilitzar
 // https://firebase.google.com/docs/web/setup#available-libraries
 import {
   getFirestore,
@@ -14,18 +14,13 @@ import {
   updateDoc,
 } from "https://www.gstatic.com/firebasejs/9.6.2/firebase-firestore.js";
 
-// Your web app's Firebase configuration
+// La configuració de Firebase de la vostra aplicació web
 const firebaseConfig = {
   // Put you credentials here
-    apiKey: "AIzaSyBUjTKPBxTAo9T2MUOQ3_Y9PFmWqUAnZAY",
-    authDomain: "pardo-firebase-js-crud-47bba.firebaseapp.com",
-    projectId: "pardo-firebase-js-crud-47bba",
-    storageBucket: "pardo-firebase-js-crud-47bba.appspot.com",
-    messagingSenderId: "97207648652",
-    appId: "1:97207648652:web:2e0fab38d81a2c42b2d6a9"
+
 };
 
-// Initialize Firebase
+// Inicialitzar Firebase
 export const app = initializeApp(firebaseConfig);
 
 export const db = getFirestore();
